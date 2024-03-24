@@ -71,6 +71,6 @@ def sql_injection_scan(url):
                 break
 
 if __name__ == "__main__":
-    urlToBeChecked = "http://testphp.vulnweb.com/artists.php?artist=1"
+    urlToBeChecked = "https://juice-shop.herokuapp.com/#/login"
     sql_injection_scan(urlToBeChecked)
 
